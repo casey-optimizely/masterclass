@@ -10,7 +10,7 @@ export async function GET(request: NextRequest) {
   const key = searchParams.get('key')
   const ver = searchParams.get('ver')
   const loc = searchParams.get('loc')
-å
+
   if (!ver || !token || !key) {
     return notFound()
   }
